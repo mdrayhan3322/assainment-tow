@@ -69,6 +69,13 @@
 
   /*------------------------------------ curriculum section end ---------------------------------*/
 
+  .stories-pairt-one{
+    display:none;
+  }
+  .stories-pairt-tow,.stories-child-caird {
+    width:100%;
+  }
+
 
 
 }

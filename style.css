@@ -184,3 +184,120 @@
   
   /* -------------------- curriculum section end ---------------------------- */
 
+  /* -- -----pair secton start ------- -- */
+
+  .pair{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    margin-top:20px;
+ 
+  }
+  .pair-a{
+    padding:20px;
+    border-radius:100%;
+    background-color:#ffa801;
+    color:white;
+    border:none;
+
+  }
+  .pair-b{
+    padding:20px;
+    border-radius:100%;
+    background-color:#ffa801;
+    color:white;
+    border:none;
+  }
+
+    /* -- -----pair secton end ------- -- */
+
+    /* ---------------------     our Stories section start --------------------------- */
+
+    .our-stories-container{
+      border:1px solid tomato;
+      margin:20px 30px;
+      text-align:center;
+    }
+    .stories-head{
+      font-size:60px;
+    }
+    .btn{
+      background-color:tomato;
+      color:white;
+      border-radius:30px;
+      padding:10px 40px;
+      border:none;
+      margin-top:30px;
+    }
+    .stories-contaner{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:10px;
+      margin-top:20px;
+      border:1px solid green;
+    }
+    .stories-pairt-one{
+      border:1px solid blue;
+    }
+    .stories-pairt-one >div > img{
+      width:100%;
+      border-radius:20px;
+      position:relative;
+    
+
+    }
+    .devided{
+      width:200px;
+      height:50px;
+      background-color:#ef5777;
+      border-radius:30px;
+      padding:15px;
+      color:white;
+      font-size:20px;
+      position:absolute;
+      bottom:10px;
+      
+  
+     
+    }
+    .stories-h1{
+      color:#130f40;
+      font-size:30px;
+      margin-top:50px;
+      margin-left:40px;
+    }
+    .stories-p{
+      font-size:20px;
+      font-weight:5px;
+      margin-top:50px;
+      margin-left:40px;
+      
+    }
+    .stories-pairt-one{
+
+    }
+
+    .stories-pairt-tow{
+      border:1px solid red;
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:10px;
+    }
+    .pairt-tow-h2{
+      margin-top:50px;
+    }
+    .stories-child-caird{
+      border:1px solid rgb(213, 20, 220);
+      border-radius:20px;
+    }
+    .stories-child-caird >div >img{
+      width:100%;
+    }
+    /* ---------------------     our Stories section end --------------------------- */
+
+    .footer{
+      display:grid;
+      grid-template-columns: repeat(3,1fr);
+    }
+
