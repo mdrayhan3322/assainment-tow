@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.logoimg{
+    display:flex;
+    align-items:center;
+   
+}
+/* .logo{
+    font-size: 40px;
+    text-decoration:none;
+    color:#2f3640;
+} */
+
+.humberger{
+    font-size:50px;
+    margin-top:20px;
+    display:none;
+}
+#home{
+color:#f39c12;
+font-size:20px;
+}
+#about{
+    color:#3498db;
+    font-size:20px;
+
+}
+#facilites{
+    color:#9b59b6;
+    font-size:20px;
+
+
+}
+#admission{
+    color:#16a085;
+    font-size:20px;
+
+
+}
+.button{
+    padding:10px 30px;
+   border:none;
+   border-radius:30px;
+   background-color:#ff9d00;
+   color:aliceblue;
+   font-size:20px;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    /* border-bottom:2px solid #ff9d00; */
+    padding:5px 20px;
+
+}
+.linebreak{
+    color:red;
+}
+
+
+
+.navemenu {
+    gap:30px;
+    display:flex;
+    
+}
+.navemenu li{
+    list-style: none;
+}
+.navemenu li a{
+    text-decoration:none;
+}
+ul{
+    display:flex;
+    margin-left:10px;
+}
+.fa-bars{
+    display:none;
+}
+@media screen and(max-width:576px){
+    nav{
+        display:block;
+        position:relative;
+        padding:20px 30px;
+    }
+    .navemenu{
+      
+        display:none;
+    }
+    .logo{
+        display:none;
+    }
+    .button{
+        display:none;
+    }
+    .fa-bars{
+        display:block;
+    }
+
+}
+
+
+
