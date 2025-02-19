@@ -244,11 +244,18 @@
       margin-top:20px;
       /* border:1px solid green; */
     }
+
+
+
+
     .stories-pairt-one{
       background-color:whitesmoke;
-      /* border:1px solid blue; */
+      border:1px solid rgb(122, 0, 0);
       border-radius:30px;
     }
+
+    
+
     .stories-pairt-one >div > img{
       width:100%;
      
@@ -302,9 +309,7 @@
       margin-left:40px;
       
     }
-    .stories-pairt-one{
 
-    }
 
     .stories-pairt-tow{
       /* border:1px solid red; */
