@@ -216,7 +216,7 @@
 
     .our-stories-container{
       /* border:1px solid tomato; */
-      margin:20px 30px;
+      margin:0px 30px;
       text-align:center;
      
       background-image:url(image/bg.jpg);
@@ -227,6 +227,7 @@
     }
     .stories-head{
       font-size:60px;
+      color:white;
     }
     .btn{
       background-color:tomato;
