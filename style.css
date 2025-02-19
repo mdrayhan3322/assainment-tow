@@ -279,6 +279,15 @@
       border-radius:30px;
 
     }
+    #devided-2-id-1{
+      background-color:rgb(0, 255, 149);
+    }
+    #devided-2-id-2{
+      background-color:rgb(75, 70, 168);
+    }
+    #devided-2-id-3{
+      background-color:rgb(183, 0, 255);
+    }
     .stories-h1{
       color:#130f40;
       font-size:30px;
