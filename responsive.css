@@ -66,15 +66,34 @@
   grid-template-columns:repeat(1,1fr);
 
  }
+ .pair{
+  display:none;
+ }
 
   /*------------------------------------ curriculum section end ---------------------------------*/
 
   .stories-pairt-one{
     display:none;
+    /* display:block; */
   }
-  .stories-pairt-tow,.stories-child-caird {
+  /* .stories-pairt-tow{
     width:100%;
+    margin-left:50px;
+  } */
+   .stories-child-caird{
+    width:180px;
+   }
+  /* .stories-pairt-tow,.stories-child-caird {
+    width:100%;
+  } */
+
+  /* ------------------------------------- footer section start ----------------------------------- */
+
+  .footer{
+    display:grid;
+    grid-template-columns:repeat(1,1fr);
   }
+  /* --------------------------------------footer section end ------------------------------------- */
 
 
 
